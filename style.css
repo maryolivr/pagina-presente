@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #FFD5D5;
+    background-image: url(assets/planodefundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primeiro-titulo {
+    padding: 5% 30% 3% 0;
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    color: #6B3F69;
+}
+
+.segundo-titulo {
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+    color: #6B3F69;
+}
+
+.paragrafo {
+    padding: 0 30% 0 30%;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color: #6B3F69;
+    margin: 0;
+}
+
+.rodape {
+    background-color: #A376A2;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: 20px;
+    color: #EBEBEB;
+    margin: 6% 0 0 0;
+}
+
+.navegacao {
+    background-color: #A376A2;
+    padding: 1% 0 1% 15%; 
+}
+
+.navegacao-ancoras {
+    display: flex;
+    gap: 40px;
+}
+.ancora {
+    font-family: "Dancing Script", cursive;
+    text-decoration: none;
+    color: #EBEBEB;
+    font-size: 25px;
+    font-weight: 600;
+}
