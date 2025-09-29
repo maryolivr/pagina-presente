@@ -8,7 +8,6 @@
 
 body {
     box-sizing: border-box;
-    background-color: #FFD5D5;
     background-image: url(assets/planodefundo.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -68,4 +67,31 @@ body {
     color: #EBEBEB;
     font-size: 25px;
     font-weight: 600;
+}
+
+.recordacao-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+.recordacao-titulo {
+    font-family: "Dancing Script", cursive;
+    color: #6B3F69;
+    text-align: center;
+    margin: 5%;
+    font-size: 40px;
+}
+
+.recordacao-imagem {
+    width: 400px;
+    height: 350px;
+    border: solid #6B3F69;
+    margin: 0 10% 20% 20%;
+    
 }
